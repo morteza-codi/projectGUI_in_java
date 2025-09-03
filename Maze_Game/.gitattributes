@@ -1,0 +1,47 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Java source files
+*.java text diff=java
+
+# XML files
+*.xml text diff=xml
+
+# Properties files
+*.properties text
+
+# Markdown files
+*.md text diff=markdown
+
+# Image files
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+
+# JAR files
+*.jar binary
+
+# Class files
+*.class binary
+
+# Windows scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Unix scripts
+*.sh text eol=lf
+
+# Documentation
+LICENSE text
+README.md text
+CHANGELOG.md text
+CONTRIBUTING.md text
+
+# IDE configuration files
+*.iml text
+.idea/* text
+.vscode/* text
+.classpath text
+.project text
+.settings/* text
